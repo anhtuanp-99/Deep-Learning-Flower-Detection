@@ -1,0 +1,40 @@
+{
+  "test_accuracy": 0.9116279069767442,
+  "macro_f1": 0.9119220950774574,
+  "per_class": {
+    "daisy": {
+      "precision": 0.9565217391304348,
+      "recall": 0.868421052631579,
+      "f1-score": 0.9103448275862069,
+      "support": 76.0
+    },
+    "dandelion": {
+      "precision": 0.868421052631579,
+      "recall": 0.9428571428571428,
+      "f1-score": 0.9041095890410958,
+      "support": 105.0
+    },
+    "sunflower": {
+      "precision": 0.9705882352941176,
+      "recall": 0.9041095890410958,
+      "f1-score": 0.9361702127659575,
+      "support": 73.0
+    },
+    "tulip": {
+      "precision": 0.8867924528301887,
+      "recall": 0.9591836734693877,
+      "f1-score": 0.9215686274509803,
+      "support": 98.0
+    },
+    "rose": {
+      "precision": 0.9178082191780822,
+      "recall": 0.8589743589743589,
+      "f1-score": 0.8874172185430463,
+      "support": 78.0
+    }
+  },
+  "device": "NVIDIA GeForce RTX 3050 6GB Laptop GPU",
+  "epochs_run": 15,
+  "train_seconds": 305.3,
+  "batch_size": 32
+}
